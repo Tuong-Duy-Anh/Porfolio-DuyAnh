@@ -12,7 +12,7 @@ const SectionWrapper = (Compoonets, idName) =>
         initial="hidden"
         whileInView="show"
         viewport={{
-          once: true,
+          once: false,
           amount: 0.25,
         }}
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
